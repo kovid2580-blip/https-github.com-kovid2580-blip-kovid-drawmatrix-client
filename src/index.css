@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   body {
     @apply antialiased text-antigravity-text bg-antigravity-bg font-sans selection:bg-antigravity-accent selection:text-white;
