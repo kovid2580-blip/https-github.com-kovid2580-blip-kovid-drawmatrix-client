@@ -22,7 +22,7 @@ interface Shape {
     strokeWidth: number;
 }
 
-const SOCKET_URL = import.meta.env.PROD ? 'https://YOUR-BACKEND-URL.railway.app' : 'http://localhost:3001';
+const SOCKET_URL = import.meta.env.PROD ? 'https://kovid-drawmatrix-server.onrender.com' : 'http://localhost:3001';
 const socket = io(SOCKET_URL);
 
 const Editor = () => {
